@@ -4,13 +4,13 @@ import { UserProfile } from './UserProfile';
 
 const UserContext=createContext();
 const App = () => {
- 
+  
   return (
     <div id="main">
         <UserContext.Provider value={{name:"Newton", age:3}}>
 
        
-         <UserProfile detail={{name:"Newton", age:3}}/>
+         <UserProfile />
          </UserContext.Provider>
        
       
