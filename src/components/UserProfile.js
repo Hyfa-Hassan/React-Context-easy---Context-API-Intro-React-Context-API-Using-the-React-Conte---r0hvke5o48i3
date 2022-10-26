@@ -5,10 +5,10 @@ import { UserContext } from "./App"
 const UserProfile = () =>{
     const user=useContext(UserContext);
 return(
-    <>
-        <h1 id='name'>Name:-{user.name}</h1>
-        <h1 id='age'>Age:-{user.age}</h1>
-    </>
+    <section>
+        <h1 id='name'>Name:- {user.name}</h1>
+        <h1 id='age'>Age:- {user.age}</h1>
+    </section>
 )
      
 }
